@@ -12,7 +12,7 @@
 2. [Android](/notes/Android.md)
 3. [Linux](/notes/Linux.md)
 4. [Microcontroller](/notes/Microcontroller.md)
-5. [myWeb site on GitHub Pages](https://lamanovart.github.io/ru/)
+5. [myWeb site on GitHub Pages](https://github.com/Arte-m/Arte-m.github.io/blob/master/site/index.html)
 
 
 # YouTube Chanels ![alt text](/image/iconyoutub.png "Logo Title Text 1")
