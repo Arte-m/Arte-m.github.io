@@ -16,9 +16,8 @@
 
 ***java
 
-
-
-
-
-
+fun main() {
+int x = 30
+printf("HELLO")
+} 
 ***
