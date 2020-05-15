@@ -10,7 +10,7 @@
 
 
 
-# Java ![javaimeg](https://yandex.ru/images/touch/search?pos=1&img_url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Ftr%2Fthumb%2F2%2F2e%2FJava_Logo.svg%2F280px-Java_Logo.svg.png&text=java+jpg&rpt=simage&wp=off) 
+# Java ![javaimeg](/image/Java2.jpeg) 
 
 Писать код java онлайн - [ideone. Com](https://ideone.com)
 
