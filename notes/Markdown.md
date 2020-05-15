@@ -1,10 +1,20 @@
 ---
 title: Markdown
-created: '2020-05-12T19:02:52.858Z' 
+created: '2020-05-12T19:02:52.858Z'  
 modified: '2020-05-12T20:01:34.441Z' 
 help: ' me '
+One: '2'
+---
+
+
 
 ---
+Text: 'mark10'
+Tuxt: 'ghf'
+Asd: 'the'
+---
+
+
 
 # Markdown
 # Heading 1
@@ -60,10 +70,8 @@ http://notable.md
 <details open>
    <summary>Summary1...</summary>
    <markdown>
-      - Embeded
-        - _Markdown_
-      # Help
->  int
->      
+1. One
+2. Help
+3. Star
    </markdown>
    </details>
