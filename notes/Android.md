@@ -14,7 +14,7 @@
 
 Писать код java онлайн - [ideone. Com](https://ideone.com)
 
-***javaScript
+***javascript
 
 fun main() {
 int x = 30
