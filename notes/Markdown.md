@@ -57,9 +57,13 @@ http://notable.md
 
 ----------------------
 
-Numeric [^1]
-sfsdfsdf [^fn]
- online ^[Inlaine content]
- 
- [^1]: Numeric
- [^fn]: Sfsd
+<details open>
+   <summary>Summary1...</summary>
+   <markdown>
+      - Embeded
+        - _Markdown_
+      # Help
+>  int
+>      
+   </markdown>
+   </details>
