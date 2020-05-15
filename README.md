@@ -21,3 +21,4 @@
 - [АйЕиБорода](https://www.youtube.com/channel/UCeObZv89Stb2xLtjLJ0De3Q)
 - [S0ER](https://www.youtube.com/channel/UCe_TcJarfs-HKy3NySy8Kng/featured)
 
+![imege](/image/laptop.jpg)
