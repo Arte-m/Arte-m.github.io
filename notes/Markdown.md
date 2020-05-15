@@ -52,4 +52,14 @@ Suscript^example^
  [Link](notable.md)
  [Link referens][1]
  
+http://notable.md
+<http://notable.md>
 
+----------------------
+
+Numeric [^1]
+sfsdfsdf [^fn]
+ online ^[Inlaine content]
+ 
+ [^1]: Numeric
+ [^fn]: Sfsd
