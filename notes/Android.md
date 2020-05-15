@@ -12,12 +12,8 @@
 
 # Java ![javaimeg](/image/Java2.jpeg) 
 
-Писать код java онлайн - [ideone. Com](https://ideone.com)
+Писать код java онлайн - [ideone. Com](https://ideone.com) что-то зависает :)
 
-***javascript
 
-fun main() {
-int x = 30
-printf("HELLO")
-} 
-***
+
+
