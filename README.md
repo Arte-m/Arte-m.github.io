@@ -6,7 +6,7 @@
 [![pixabay](https://img.shields.io/badge/imege%20style-pixabay-brightgreen.svg)](https://pixabay.com/)
 [![androidDev](https://img.shields.io/badge/-Android--Dev-yellow)](https://developer.android.com/)
 [![javaScript](https://img.shields.io/badge/-bookJavaScript-blue)](https://learn.javascript.ru/)
-[![htmlacademy](https://img.shields.io/badge/-html-academy-green)](https://htmlcademy.ru)
+[![htmlacademy](https://img.shields.io/badge/-htmlacademy-green)](https://htmlcademy.ru)
 
 
 
