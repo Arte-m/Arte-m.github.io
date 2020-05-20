@@ -1,3 +1,8 @@
+<a class="link-with-intro Bump-link--hover no-underline d-block py-2" href="/en/github/getting-started-with-github/set-up-git">
+  <h4 class="link-with-intro-title link-gray-dark">Set up Git<span class="Bump-link-symbol">→</span></h4>
+  <p class="link-with-intro-intro color-gray-5">At the heart of GitHub is an open source version control system (VCS) called Git. Git is responsible for everything GitHub-related that happens locally on your computer.</p>
+</a>
+
 <img src="/image/desk.jpg" alt="react boilerplate banner" align="center" />
 
 <br />
