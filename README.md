@@ -1,3 +1,7 @@
+<img src="https://raw.githubusercontent.com/react-boilerplate/react-boilerplate-brand/master/assets/banner-metal-optimized.jpg" alt="react boilerplate banner" align="center" />
+
+<br />
+
 # My notes about world IT
 
 [![help-markdown](https://img.shields.io/badge/-Help%20Markdown-green)](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
