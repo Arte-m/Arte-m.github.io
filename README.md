@@ -25,7 +25,7 @@
 3. [Linux](/notes/Linux.md)
 4. [Microcontroller](/notes/Microcontroller.md)
 5. [webExperement](/notes/exampl.html)
-
+6. [Git](/notes/Git.md)
 
 # YouTube Chanels ![alt text](/image/iconyoutub.png "Logo Title Text 1")
 
