@@ -35,4 +35,5 @@
 - [S0ER](https://www.youtube.com/channel/UCe_TcJarfs-HKy3NySy8Kng/featured)
 - [1000+ часов видео по Java на русском](https://habr.com/ru/company/golovachcourses/blog/215275/)
 - [Многое про Java](https://habr.com/ru/users/vedenin1980/posts/)
+
 ![imege](/image/laptop.jpg)
