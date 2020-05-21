@@ -33,5 +33,6 @@
 - [Фрилансер по жизни - IT и фриланс](https://www.youtube.com/channel/UCedskVwIKiZJsO8XdJdLKnA)
 - [АйЕиБорода](https://www.youtube.com/channel/UCeObZv89Stb2xLtjLJ0De3Q)
 - [S0ER](https://www.youtube.com/channel/UCe_TcJarfs-HKy3NySy8Kng/featured)
+- [1000+ часов видео по Java на русском](https://habr.com/ru/company/golovachcourses/blog/215275/)
 
 ![imege](/image/laptop.jpg)
