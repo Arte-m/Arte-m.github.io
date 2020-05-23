@@ -37,3 +37,10 @@
 - [Многое про Java](https://habr.com/ru/users/vedenin1980/posts/)
 
 ![imege](/image/laptop.jpg)
+
+
+
+
+
+To switch directories, type <kbd>cd</kbd> followed by the name of the directory.<br>
+To edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>
