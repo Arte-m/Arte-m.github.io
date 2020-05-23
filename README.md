@@ -44,11 +44,12 @@
 
 To switch directories, type <kbd>cd</kbd> followed by the name of the directory.<br>
 To edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>
-<div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Название карточки</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Переход куда-нибудь</a>
-  </div>
-</div>
+
+
+<ul class="list-group">
+  <li class="list-group-item">Cras justo odio</li>
+  <li class="list-group-item">Dapibus ac facilisis in</li>
+  <li class="list-group-item">Morbi leo risus</li>
+  <li class="list-group-item">Porta ac consectetur ac</li>
+  <li class="list-group-item">Vestibulum at eros</li>
+</ul>
