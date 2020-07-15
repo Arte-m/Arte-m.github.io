@@ -148,24 +148,29 @@
           </div>
           <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
               <!---------------------tab2------------------------->
-              <p class="font-weight-bold">Установка ArchLinux</p>
+              <p class="font-weight-bold"><em>Установка ArchLinux</em></p>
               <ol>
                 <li><p><code class="badge badge-secondary">sudo wifi-menu</code> - подключиться к интернету.</p></li>
                 <li><p><code class="badge badge-secondary">cfdisk /dev/sda</code> - поделить диск. </p></li>
                 <li><p><code class="badge badge-secondary">mount /dev/sda3 /mnt</code></p></li>
                 <li><p><code class="badge badge-secondary">mkdir  /mnt/boot  /mnt/home  /mnt/var</code></p></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-
+                <li><p><code class="badge badge-secondary">mount /dev/sda1 /mnt/boot</code></p></li>
+                <li><p><code class="badge badge-secondary">pacstrap /mnt base base-devel</code></p></li>
+                <li><p><code class="badge badge-secondary">pacstrap /mnt grub-bios</code></p></li>
+                <li><p><code class="badge badge-secondary">genfstab -P /mnt >> /mnt/etc/fstab</code></p></li>
+                <li><p><code class="badge badge-secondary">arch-chroot /mnt</code></p></li>
+                <li><p><code class="badge badge-secondary">hwclock --systohc --utc</code></p></li>
+                <li><p><code class="badge badge-secondary">mkinitcpio -P linux</code></p></li>
+                <li><p><code class="badge badge-secondary">passwd root</code></p></li>
+                <li><p><code class="badge badge-secondary">useradd -MG users -G wheel -S /bin/bash имя</code></p></li>
+                <li><p><code class="badge badge-secondary">passwd имя</code></p></li>
+                <li><p><code class="badge badge-secondary">grub-install /dev/sda</code></p></li>
+                <li><p><code class="badge badge-secondary">grub-mkconfig -o /boot/grub/grub.cfg</code></p></li>
+                <li><p><code class="badge badge-secondary">exit</code></p></li>
+                <li><p><code class="badge badge-secondary">hostnamectl set-hostname имя</code></p></li>
+                <li><p><code class="badge badge-secondary">ip addr</code></p></li>
+                <li><p><code class="badge badge-secondary">systemctl enable dhcpcd</code></p></li>
+                <li><p><code class="badge badge-secondary">systemctl start dhcpcd</code></p></li>
               </ol>
 
               <!---------------------tab2------------------------->
