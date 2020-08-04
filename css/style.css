@@ -1,74 +1,53 @@
-.bd-footer a {
-    text-align: center;
-font-weight: 600;
-color: #495057;
-}
-.table {
-    width: auto;
-    overflow: auto;
-    display: block;
-    margin: 15px 0;
-    background-color: #fff;
-    border-spacing: 0;
-    border-collapse: collapse;
-    border-top-left-radius: 1px;
-}
+/* Change this breakpoint if you change the breakpoint of the navbar */
 
-
-*,
-::before,
-::after {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-}
-
-.intro {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 91vh;
-}
-.intro_media {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-   background: #cccccc; 
-   background-size: cover;
-
-}
-
-.intro_media::before {
-position: absolute;
-top: 0;
-left: 0;
-z-index: 5;
-width: 100%;
-height: 100%;
-content: '';
-background-color: rgba(0, 0, 0, 0.5) ;
-
-}
-
-.intro_media-video {
-position: absolute;
-top: 50%;
-left: 50%;
-min-width: 100%;
-min-height: 100%;
-object-fit: cover;
-transform: translate(-50%, -50%);
-}
-
-.intro_content {
-    z-index: 10;
-    color: #fff;
-    text-align: center;
-}
+@media (min-width: 992px) {
+    .animate {
+      animation-duration: 0.3s;
+      -webkit-animation-duration: 0.3s;
+      animation-fill-mode: both;
+      -webkit-animation-fill-mode: both;
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateY(1rem);
+      opacity: 0;
+    }
+    100% {
+      transform:translateY(0rem);
+      opacity: 1;
+    }
+    0% {
+      transform: translateY(1rem);
+      opacity: 0;
+    }
+  }
+  
+  @-webkit-keyframes slideIn {
+    0% {
+      -webkit-transform: transform;
+      -webkit-opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      -webkit-opacity: 1;
+    }
+    0% {
+      -webkit-transform: translateY(1rem);
+      -webkit-opacity: 0;
+    }
+  }
+  
+  .slideIn {
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+  }
+  
+  /* Other styles for the page not related to the animated dropdown */
+  
+  body{
+    background: #007bff;
+    background: linear-gradient(to right, #0062E6, #47AF7C);
+  }
+  
