@@ -8,7 +8,32 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+
     <title>Hello, world!</title>
+    <script src="javascript/calculator.js"></script>
+    <style>
+      .button{
+        width: 50px;
+        height: 50px;
+        font-size: 25px;
+        margin: 2px;
+        cursor: pointer;
+      }
+      .textview {
+        width: 217px;
+        margin: 5px;
+        font-size: 25px;
+        padding: 5px;
+      }
+      .main{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        background: grey;
+      }
+
+    </style>
   </head>
   <body>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -32,7 +57,7 @@
                   <a class="dropdown-item" href="linux.html">Linux</a>
                   <a class="dropdown-item" href="#">Web note</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="calculator.html">js calculator</a>
+                  <a class="dropdown-item" href="#">js calculator</a>
                 </div>
               </li>
             </ul>
@@ -46,18 +71,55 @@
      
   <div class="container text-center">
     <h1 class="mt-5 text-white font-weight-light"> Welcome </h1>
-    <p class="lead text-white-50">Добро пожаловать на страницу заметок про web технологии.</p>
+    <p class="lead text-white-50">Добро пожаловать на страницу js calculator.</p>
   </div>
 <!------------content-------------->
-<div class="alert alert-light container" role="alert">
-  <h4 class="alert-heading">Bootstrap</h4>
-  <p>Websites: </p>
-  <ul>
-    <li><a  href="https://v5.getbootstrap.com/">https://v5.getbootstrap.com/</a> </li>
-  </ul>
-  <hr>
-  <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+
+<div class="main">
+  <form name="form">
+    <input class="textview" name="textview">
+  </form>
+  <table>
+    <tr>
+    <td><input type="button" class="button" value="C" onclick="clean()"> </td>
+    <td><input type="button" class="button" value="<" onclick="back()"> </td>
+    <td><input type="button" class="button" value="/" onclick="insert('/')"> </td>
+    <td><input type="button" class="button" value="X" onclick="insert('*')"> </td>
+    </tr>
+    <tr>
+      <td><input type="button" class="button" value="7" onclick="insert(7)"> </td>
+      <td><input type="button" class="button" value="8" onclick="insert(8)"> </td>
+      <td><input type="button" class="button" value="9" onclick="insert(9)"> </td>
+      <td><input type="button" class="button" value="-" onclick="insert('-')"> </td>
+    </tr>
+    <tr>
+      <td><input type="button" class="button" value="4" onclick="insert(4)"> </td>
+      <td><input type="button" class="button" value="5" onclick="insert(5)"> </td>
+      <td><input type="button" class="button" value="6" onclick="insert(6)"> </td>
+      <td><input type="button" class="button" value="+" onclick="insert('+')"> </td>
+    </tr>
+    <tr>
+      <td><input type="button" class="button" value="1" onclick="insert(1)"> </td>
+      <td><input type="button" class="button" value="2" onclick="insert(2)"> </td>
+      <td><input type="button" class="button" value="3" onclick="insert(3)"> </td>
+      <td rowspan="2"><input style="height: 106px" type="button" class="button" value="=" onclick="equal()"> </td>
+    </tr>
+    <tr>
+      <td colspan="2"><input style="width: 106px" type="button" class="button" value="0" onclick="insert(0)"> </td>
+      <td><input type="button" class="button" value="." onclick="insert('.')"> </td>
+    </tr>
+  </table>
 </div>
+
+
+
+
+
+
+
+
+
+<!-----------content--------------->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
