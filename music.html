@@ -8,6 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleVue.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <title>Hello, world!</title>
   </head>
   <body>
@@ -67,11 +69,13 @@
     </div>
 
     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-      <div class="card-body">
+      <div class="card-body ">
         <!------------content 1-------------->
-         
+        <div class="card">    
         <audio src="img/Codmusic.mp3" controls></audio>
-        
+        <img class="card" src="img/codeaudio.png" width="500">
+        <img class="card" src="img/codeaudiocss.png" width="500">
+        </div>
         <!------------content 1-------------->
       </div>
     </div>
@@ -82,13 +86,27 @@
     <div class="card-header" id="headingTwo">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Разворачиваемая панель #2
+         TODo  Vue.js 
         </button>
       </h5>
     </div>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
       <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+<!------------2-------------->
+<div id="app">
+  <div class="stats">
+    <h3 class="stats__title">{{"Текущих задач: "+ tasks.length}}</h3>
+  </div>
+  <task @task_done="delete_task(index)" :key="index" v-for="(data,index) in tasks" :data="data" ></task>
+  <div class="add_task">
+    <div class="add_task__input ">
+        <input placeholder="Новая задача..." type="text" v-model="new_task.title">
+        <textarea placeholder="Описание" type="text" v-model="new_task.desc"></textarea>
+    </div>
+    <button class="add_task__btn" @click="add_task">➕</button>
+  </div>
+</div>
+<!------------2-------------->
       </div>
     </div>
   </div>
@@ -119,4 +137,5 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </body>
+  <script src="javascript/scriptVue.js"></script>
 </html>
