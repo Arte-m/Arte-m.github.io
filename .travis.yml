@@ -1,3 +1,8 @@
+- name: Vuepress to GitHub Pages
+  uses: testthedocs/github-pages-deploy-action@0.0.2
+
+
+
 language: node_js
 sudo: false
 node_js:
@@ -6,6 +11,3 @@ install:
     - yarn
 script:
     - yarn build
-    - name: Vuepress to GitHub Pages
-    uses: testthedocs/github-pages-deploy-action@0.0.2
-  
