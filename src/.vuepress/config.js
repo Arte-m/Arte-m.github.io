@@ -5,6 +5,7 @@ module.exports = {
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
   title: 'Artem Docs',
+  base: 'https://arte-m.github.io/',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
